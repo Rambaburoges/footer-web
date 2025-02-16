@@ -1,0 +1,116 @@
+* {    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+}
+.main-footer {
+    position: relative;
+    background: #016a42;
+}
+.main-footer .links-widget .links-list li {
+    position: relative;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.main-footer .widget-title h3 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #fff;
+}
+.main-footer p, .main-footer a {
+    color: #d1dbe5;
+}
+
+.widget-title {
+    position: relative;
+    display: block;
+    margin-bottom: 25px;
+}
+
+
+
+.main-footer .about-widget .lower-box h5 {
+    display: block;
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.main-footer .widget-section {
+    position: relative;
+    padding: 80px 0px 80px 0px;
+    border-bottom: 1px dashed #3e7288;
+}
+
+.footer-bottom {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0px;
+}
+
+
+.main-footer .about-widget .lower-box {
+    position: relative;
+    display: block;
+    padding-left: 85px;
+    min-height: 78px;
+}
+
+.main-footer .about-widget .lower-box .icon-box {
+    position: absolute;
+    left: 4px;
+    top: 13px;
+    width: 60px;
+    height: 54px;
+    line-height: 64px;
+    font-size: 34px;
+    color: #fff;
+    z-index: 1;
+    text-align: center;
+}
+
+.main-footer .about-widget .lower-box .icon-box:before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 54px;
+    left: 0px;
+    top: 0px;
+    transform: rotate(90deg);
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    z-index: -1;
+}
+
+.icon-box i {
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 16px;
+}
+
+.main-footer .about-widget .lower-box .icon-box:after {
+    position: absolute;
+    content: "";
+    background-image: url(./images/shape-11.png);
+    left: -1px;
+    top: -8px;
+    width: 62px;
+    height: 70px;
+    background-repeat: no-repeat;
+}
+
+.main-footer .about-widget .lower-box .icon-box:before {
+    background: #8aaa51;
+}
